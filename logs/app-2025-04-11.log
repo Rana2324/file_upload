@@ -1,0 +1,5 @@
+{"level":"info","message":"Starting application...","metadata":{"metadata":{"service":"image-upload-app"}},"timestamp":"2025-04-11 00:03:42"}
+{"level":"info","message":"Cloudinary configuration successful","metadata":{"metadata":{"service":"image-upload-app"}},"timestamp":"2025-04-11 00:03:42"}
+{"level":"info","message":"Database connection attempted","metadata":{"metadata":{"service":"image-upload-app"}},"timestamp":"2025-04-11 00:03:42"}
+{"level":"info","message":"Server running on port 3000","metadata":{"metadata":{"service":"image-upload-app"}},"timestamp":"2025-04-11 00:03:42"}
+{"level":"info","message":"Connected to MongoDB","metadata":{"metadata":{"service":"image-upload-app"}},"timestamp":"2025-04-11 00:03:42"}

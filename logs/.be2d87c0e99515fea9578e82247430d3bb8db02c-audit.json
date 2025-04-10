@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Users\\shohe\\Desktop\\file_upload\\logs\\.be2d87c0e99515fea9578e82247430d3bb8db02c-audit.json",
+    "files": [
+        {
+            "date": 1744297568144,
+            "name": "C:\\Users\\shohe\\Desktop\\file_upload\\logs\\application-2025-04-11.log",
+            "hash": "498af6032d68f1a925f04e124cf5eca4dac5b343a967fe10af6956700f1865ea"
+        }
+    ],
+    "hashType": "sha256"
+}

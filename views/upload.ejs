@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upload Image - Image Upload System</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    .drag-area {
+      border: 2px dashed #d1d5db;
+      height: 300px;
+      border-radius: 0.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      transition: all 0.3s ease;
+    }
+    .drag-area.active {
+      border-color: #818cf8;
+      background-color: rgba(129, 140, 248, 0.1);
+    }
+    .preview-image {
+      max-width: 100%;
+      max-height: 280px;
+      object-fit: contain;
+    }
+    .progress-bar {
+      height: 6px;
+      border-radius: 3px;
+      background-color: #e5e7eb;
+      margin-top: 1rem;
+      overflow: hidden;
+    }
+    .progress-bar-fill {
+      height: 100%;
+      background-color: #818cf8;
+      width: 0%;
+      transition: width 0.3s ease;
+    }
+    .file-input {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body class="bg-gray-50">
+  <div class="min-h-screen">
+    <!-- Header with Gradient -->
+    <header class="bg-gradient-to-r from-indigo-600 to-blue-500 text-white shadow-lg">
+      <div class="container mx-auto px-4 py-6">
+        <div class="flex justify-between items-center">
+          <a href="/" class="text-2xl font-bold flex items-center">
+            <i class="fas fa-cloud-upload-alt mr-2"></i>
+            <span>Image Cloud</span>
+          </a>
+          
+          <!-- Desktop Navigation -->
+          <nav class="hidden md:flex space-x-6">
+            <a href="/" class="hover:text-indigo-200 transition duration-200 flex items-center">
+              <i class="fas fa-home mr-1 h-4 w-4"></i> Home
+            </a>
+            <a href="/upload" class="border-b-2 border-white pb-1 font-medium flex items-center">
+              <i class="fas fa-upload mr-1 h-4 w-4"></i> Upload
+            </a>
+            <a href="/gallery" class="hover:text-indigo-200 transition duration-200 flex items-center">
+              <i class="fas fa-th mr-1 h-4 w-4"></i> Gallery
+            </a>
+            <a href="/upload/profile" class="hover:text-indigo-200 transition duration-200 flex items-center">
+              <i class="fas fa-user mr-1 h-4 w-4"></i> Profile
+            </a>
+            <a href="/auth/logout" class="bg-red-500 hover:bg-red-600 px-4 py-2 rounded-md text-sm font-medium transition duration-200 flex items-center">
+              <i class="fas fa-sign-out-alt mr-1 h-4 w-4"></i> Logout
+            </a>
+          </nav>
+          
+          <!-- Mobile menu button -->
+          <button type="button" class="mobile-menu-button md:hidden inline-flex items-center justify-center p-2 rounded-md text-indigo-100 hover:text-white focus:outline-none">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+      
+      <!-- Mobile menu -->
+      <div class="md:hidden mobile-menu hidden bg-indigo-700">
+        <div class="px-4 py-3 space-y-2">
+          <a href="/" class="block px-3 py-2 rounded-md hover:bg-indigo-800 transition duration-200">
+            <i class="fas fa-home mr-2"></i> Home
+          </a>
+          <a href="/upload" class="block px-3 py-2 rounded-md bg-indigo-800 font-medium">
+            <i class="fas fa-upload mr-2"></i> Upload
+          </a>
+          <a href="/gallery" class="block px-3 py-2 rounded-md hover:bg-indigo-800 transition duration-200">
+            <i class="fas fa-th mr-2"></i> Gallery
+          </a>
+          <a href="/upload/profile" class="block px-3 py-2 rounded-md hover:bg-indigo-800 transition duration-200">
+            <i class="fas fa-user mr-2"></i> Profile
+          </a>
+          <a href="/auth/logout" class="block px-3 py-2 rounded-md text-white bg-red-500 hover:bg-red-600 mt-4 transition duration-200">
+            <i class="fas fa-sign-out-alt mr-2"></i> Logout
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8 max-w-screen-xl">
+      <div class="max-w-2xl mx-auto">
+        <!-- Card -->
+        <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+          <!-- Card Header -->
+          <div class="bg-gradient-to-r from-indigo-50 to-blue-50 p-6 border-b border-gray-100">
+            <h2 class="text-2xl font-bold text-gray-800">Upload Your Image</h2>
+            <p class="text-gray-600 mt-1">Add a profile picture to personalize your account</p>
+          </div>
+          
+          <!-- Card Body -->
+          <div class="p-6">
+            <form id="uploadForm" enctype="multipart/form-data">
+              <!-- Upload Area -->
+              <div class="drag-area relative mb-6" id="dropArea">
+                <input type="file" id="image" name="image" class="file-input" accept="image/*" required>
+                <div class="text-center drag-content">
+                  <i class="fas fa-image text-gray-400 mb-3 text-6xl mx-auto"></i>
+                  <h3 class="text-lg font-medium text-gray-700 mb-1">Drag & Drop your image here</h3>
+                  <p class="text-gray-500 mb-4">or click to browse</p>
+                  <p class="text-xs text-gray-400">Supports: JPG, PNG, GIF (Max: 5MB)</p>
+                </div>
+                <img id="preview" class="preview-image rounded-md hidden" alt="Image Preview">
+              </div>
+              
+              <!-- Upload Progress -->
+              <div id="uploadProgress" class="hidden">
+                <div class="flex justify-between text-sm text-gray-600 mb-1">
+                  <span>Uploading...</span>
+                  <span id="progressPercent">0%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-bar-fill" id="progressBar"></div>
+                </div>
+              </div>
+              
+              <!-- Upload Button -->
+              <div class="mt-6">
+                <button type="submit" id="uploadBtn" class="w-full flex items-center justify-center bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-3 px-4 rounded-lg transition duration-200 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+                  <i class="fas fa-cloud-upload-alt mr-2"></i>
+                  <span>Upload Image</span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        
+        <!-- Status Messages -->
+        <div id="uploadStatus" class="hidden mt-4 bg-green-50 border-l-4 border-green-400 p-4 rounded-lg shadow">
+          <div class="flex">
+            <div class="flex-shrink-0">
+              <i class="fas fa-check-circle text-green-400 h-5 w-5"></i>
+            </div>
+            <div class="ml-3">
+              <p class="text-sm text-green-700"></p>
+            </div>
+          </div>
+        </div>
+        
+        <div id="uploadError" class="hidden mt-4 bg-red-50 border-l-4 border-red-400 p-4 rounded-lg shadow">
+          <div class="flex">
+            <div class="flex-shrink-0">
+              <i class="fas fa-exclamation-circle text-red-400 h-5 w-5"></i>
+            </div>
+            <div class="ml-3">
+              <p class="text-sm text-red-700"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-300 mt-16">
+      <div class="container mx-auto px-4 py-8">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+          <div class="mb-4 md:mb-0">
+            <p>© 2023 Image Cloud. All rights reserved.</p>
+          </div>
+          <div class="flex space-x-4">
+            <a href="#" class="hover:text-white transition duration-200">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="#" class="hover:text-white transition duration-200">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="hover:text-white transition duration-200">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    // Mobile menu toggle
+    document.querySelector('.mobile-menu-button').addEventListener('click', function() {
+      document.querySelector('.mobile-menu').classList.toggle('hidden');
+    });
+
+    const form = document.getElementById('uploadForm');
+    const dropArea = document.getElementById('dropArea');
+    const imageInput = document.getElementById('image');
+    const preview = document.getElementById('preview');
+    const uploadProgress = document.getElementById('uploadProgress');
+    const progressBar = document.getElementById('progressBar');
+    const progressPercent = document.getElementById('progressPercent');
+    const uploadBtn = document.getElementById('uploadBtn');
+    const uploadStatus = document.getElementById('uploadStatus');
+    const uploadError = document.getElementById('uploadError');
+    const dragContent = document.querySelector('.drag-content');
+
+    // Drag and drop functionality
+    ['dragover', 'dragleave', 'drop'].forEach(eventName => {
+      dropArea.addEventListener(eventName, function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+      }, false);
+    });
+
+    ['dragover', 'dragenter'].forEach(eventName => {
+      dropArea.addEventListener(eventName, function() {
+        dropArea.classList.add('active');
+      }, false);
+    });
+
+    ['dragleave', 'dragend', 'drop'].forEach(eventName => {
+      dropArea.addEventListener(eventName, function() {
+        dropArea.classList.remove('active');
+      }, false);
+    });
+
+    dropArea.addEventListener('drop', function(e) {
+      imageInput.files = e.dataTransfer.files;
+      if (imageInput.files.length) {
+        displayPreview(imageInput.files[0]);
+      }
+    }, false);
+
+    // File input change
+    imageInput.addEventListener('change', function() {
+      if (this.files.length) {
+        displayPreview(this.files[0]);
+      }
+    });
+
+    // Display image preview
+    function displayPreview(file) {
+      if (file && file.type.startsWith('image/')) {
+        const reader = new FileReader();
+        reader.onload = function(e) {
+          preview.src = e.target.result;
+          preview.classList.remove('hidden');
+          dragContent.classList.add('hidden');
+        }
+        reader.readAsDataURL(file);
+      }
+    }
+
+    // Handle form submission with progress indication
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      
+      // Reset status messages
+      uploadStatus.classList.add('hidden');
+      uploadError.classList.add('hidden');
+      
+      // Show progress bar
+      uploadProgress.classList.remove('hidden');
+      progressBar.style.width = '0%';
+      progressPercent.textContent = '0%';
+      
+      // Disable button and show loading state
+      uploadBtn.disabled = true;
+      uploadBtn.innerHTML = '<i class="fas fa-spinner fa-spin mr-2"></i> Uploading...';
+      
+      const formData = new FormData(form);
+      
+      try {
+        // Simulate progress updates (in a real app, use XMLHttpRequest with progress events)
+        const interval = setInterval(() => {
+          const currentWidth = parseInt(progressBar.style.width || '0');
+          if (currentWidth < 90) {
+            const newWidth = currentWidth + Math.round(Math.random() * 10);
+            progressBar.style.width = `${newWidth}%`;
+            progressPercent.textContent = `${newWidth}%`;
+          }
+        }, 200);
+        
+        const res = await fetch('/upload', {
+          method: 'POST',
+          body: formData
+        });
+        
+        // Clear the interval
+        clearInterval(interval);
+        
+        // Complete the progress bar
+        progressBar.style.width = '100%';
+        progressPercent.textContent = '100%';
+        
+        // Handle response
+        if (!res.ok) {
+          const contentType = res.headers.get('content-type');
+          
+          if (contentType && contentType.includes('application/json')) {
+            const errorData = await res.json();
+            console.error('Server error details:', errorData);
+            throw new Error(errorData.error || errorData.details || 'Upload failed');
+          } else {
+            const textResponse = await res.text();
+            console.error('Non-JSON error response:', textResponse);
+            throw new Error('Server returned an invalid response');
+          }
+        }
+        
+        const data = await res.json();
+        
+        if (data.success) {
+          // Show success message
+          uploadStatus.querySelector('p').textContent = 'Image uploaded successfully!';
+          uploadStatus.classList.remove('hidden');
+          
+          // Wait a moment before redirecting
+          setTimeout(() => {
+            window.location.href = '/upload/profile';
+          }, 2000);
+        } else {
+          throw new Error(data.error || 'Upload failed');
+        }
+      } catch (err) {
+        console.error('Upload error:', err);
+        
+        // Show error message
+        uploadError.querySelector('p').textContent = err.message || 'Server error occurred';
+        uploadError.classList.remove('hidden');
+        
+        // Hide progress bar on error
+        uploadProgress.classList.add('hidden');
+      } finally {
+        // Reset button state
+        uploadBtn.disabled = false;
+        uploadBtn.innerHTML = '<i class="fas fa-cloud-upload-alt mr-2"></i><span>Upload Image</span>';
+      }
+    });
+  </script>
+</body>
+</html>

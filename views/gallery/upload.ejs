@@ -1,0 +1,285 @@
+<%- include('../partials/header', {title: 'Upload Images', path: '/gallery/upload'}) %>
+
+<main class="container mx-auto px-4 py-12">
+  <div class="max-w-3xl mx-auto">
+    <!-- Card -->
+    <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+      <!-- Card Header -->
+      <div class="gradient-bg p-6 text-white">
+        <h2 class="text-2xl font-bold">Upload Multiple Images</h2>
+        <p class="text-primary-100 mt-1">Add up to 10 images to your personal gallery</p>
+      </div>
+      
+      <!-- Card Body -->
+      <div class="p-6">
+        <form id="galleryForm" enctype="multipart/form-data" class="space-y-6">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <label for="title" class="block text-gray-700 text-sm font-medium mb-2">Title</label>
+              <input type="text" id="title" name="title" class="block w-full border border-gray-300 rounded-lg py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500" placeholder="Enter a title for your images">
+            </div>
+            
+            <div>
+              <label for="tags" class="block text-gray-700 text-sm font-medium mb-2">Tags (comma separated)</label>
+              <input type="text" id="tags" name="tags" class="block w-full border border-gray-300 rounded-lg py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500" placeholder="nature, landscape, travel">
+            </div>
+          </div>
+          
+          <div>
+            <label for="description" class="block text-gray-700 text-sm font-medium mb-2">Description</label>
+            <textarea id="description" name="description" rows="3" class="block w-full border border-gray-300 rounded-lg py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500" placeholder="Add a description for your images"></textarea>
+          </div>
+          
+          <!-- Upload Area -->
+          <div class="drag-area relative border-2 border-dashed border-gray-300 rounded-xl p-6" id="dropArea">
+            <input type="file" id="images" name="images" class="absolute inset-0 w-full h-full opacity-0 cursor-pointer z-10" accept="image/*" multiple required>
+            <div class="text-center drag-content">
+              <i class="fas fa-images text-gray-400 text-5xl mb-4"></i>
+              <h3 class="text-lg font-medium text-gray-700 mb-2">Drag & Drop images here</h3>
+              <p class="text-gray-500 mb-2">or click to browse</p>
+              <p class="text-xs text-gray-400">Supports: JPG, PNG, GIF (Max: 5MB per image, up to 10 images)</p>
+            </div>
+          </div>
+          
+          <!-- Preview Container -->
+          <div id="previewContainer" class="hidden">
+            <h4 class="text-lg font-medium text-gray-700 mb-3 flex items-center">
+              <i class="fas fa-check-circle text-green-500 mr-2"></i> 
+              Selected Images (<span id="previewCount">0</span>)
+            </h4>
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 preview-grid"></div>
+          </div>
+          
+          <!-- Upload Progress -->
+          <div id="uploadProgress" class="hidden">
+            <div class="flex justify-between text-sm text-gray-600 mb-1">
+              <span>Uploading...</span>
+              <span id="progressPercent">0%</span>
+            </div>
+            <div class="h-2 bg-gray-200 rounded-full overflow-hidden">
+              <div class="h-full bg-primary-600 rounded-full transition-all duration-300" id="progressBar" style="width: 0%"></div>
+            </div>
+          </div>
+          
+          <!-- Upload Button -->
+          <div>
+            <button type="submit" id="uploadBtn" class="w-full bg-primary-600 hover:bg-primary-700 text-white font-medium py-3 px-4 rounded-lg transition duration-300 flex items-center justify-center">
+              <i class="fas fa-cloud-upload-alt mr-2"></i>
+              <span>Upload Images</span>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    
+    <!-- Status Messages -->
+    <div id="uploadStatus" class="hidden mt-4 bg-green-50 border-l-4 border-green-400 p-4 rounded-lg shadow">
+      <div class="flex">
+        <div class="flex-shrink-0">
+          <i class="fas fa-check-circle text-green-400"></i>
+        </div>
+        <div class="ml-3">
+          <p class="text-sm text-green-700"></p>
+        </div>
+      </div>
+    </div>
+    
+    <div id="uploadError" class="hidden mt-4 bg-red-50 border-l-4 border-red-400 p-4 rounded-lg shadow">
+      <div class="flex">
+        <div class="flex-shrink-0">
+          <i class="fas fa-exclamation-circle text-red-400"></i>
+        </div>
+        <div class="ml-3">
+          <p class="text-sm text-red-700"></p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="text-center mt-6">
+      <a href="/gallery" class="text-primary-600 hover:text-primary-800 font-medium flex items-center justify-center">
+        <i class="fas fa-arrow-left mr-2"></i> Back to Gallery
+      </a>
+    </div>
+  </div>
+</main>
+
+<script>
+  const form = document.getElementById('galleryForm');
+  const dropArea = document.getElementById('dropArea');
+  const imageInput = document.getElementById('images');
+  const previewContainer = document.getElementById('previewContainer');
+  const previewGrid = document.querySelector('.preview-grid');
+  const previewCount = document.getElementById('previewCount');
+  const uploadProgress = document.getElementById('uploadProgress');
+  const progressBar = document.getElementById('progressBar');
+  const progressPercent = document.getElementById('progressPercent');
+  const uploadBtn = document.getElementById('uploadBtn');
+  const uploadStatus = document.getElementById('uploadStatus');
+  const uploadError = document.getElementById('uploadError');
+  const dragContent = document.querySelector('.drag-content');
+
+  // Drag and drop functionality
+  ['dragover', 'dragleave', 'drop'].forEach(eventName => {
+    dropArea.addEventListener(eventName, function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+    }, false);
+  });
+
+  ['dragover', 'dragenter'].forEach(eventName => {
+    dropArea.addEventListener(eventName, function() {
+      dropArea.classList.add('border-primary-400', 'bg-primary-50');
+    }, false);
+  });
+
+  ['dragleave', 'dragend', 'drop'].forEach(eventName => {
+    dropArea.addEventListener(eventName, function() {
+      dropArea.classList.remove('border-primary-400', 'bg-primary-50');
+    }, false);
+  });
+
+  dropArea.addEventListener('drop', function(e) {
+    imageInput.files = e.dataTransfer.files;
+    if (imageInput.files.length) {
+      displayPreviews(imageInput.files);
+    }
+  }, false);
+
+  // File input change
+  imageInput.addEventListener('change', function() {
+    if (this.files.length) {
+      displayPreviews(this.files);
+    }
+  });
+
+  // Display image previews
+  function displayPreviews(files) {
+    previewGrid.innerHTML = '';
+    
+    if (files.length > 0) {
+      previewContainer.classList.remove('hidden');
+      dragContent.classList.add('hidden');
+      dropArea.classList.add('h-20');
+      
+      previewCount.textContent = files.length;
+      
+      Array.from(files).forEach((file, index) => {
+        if (file.type.startsWith('image/')) {
+          const reader = new FileReader();
+          reader.onload = function(e) {
+            const previewItem = document.createElement('div');
+            previewItem.className = 'relative aspect-square rounded-lg overflow-hidden bg-gray-100 border border-gray-200';
+            
+            const img = document.createElement('img');
+            img.src = e.target.result;
+            img.className = 'w-full h-full object-cover';
+            img.alt = `Image ${index + 1}`;
+            
+            previewItem.appendChild(img);
+            previewGrid.appendChild(previewItem);
+          };
+          reader.readAsDataURL(file);
+        }
+      });
+    }
+  }
+
+  // Handle form submission with progress indication
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    
+    if (!imageInput.files.length) {
+      showNotification('Please select at least one image', 'error');
+      return;
+    }
+    
+    // Reset status messages
+    uploadStatus.classList.add('hidden');
+    uploadError.classList.add('hidden');
+    
+    // Show progress bar
+    uploadProgress.classList.remove('hidden');
+    progressBar.style.width = '0%';
+    progressPercent.textContent = '0%';
+    
+    // Disable button and show loading state
+    uploadBtn.disabled = true;
+    uploadBtn.innerHTML = '<i class="fas fa-circle-notch fa-spin mr-2"></i> Uploading...';
+    
+    const formData = new FormData(form);
+    
+    try {
+      // Simulate progress updates
+      const interval = setInterval(() => {
+        const currentWidth = parseInt(progressBar.style.width || '0');
+        if (currentWidth < 90) {
+          const newWidth = currentWidth + Math.round(Math.random() * 10);
+          progressBar.style.width = `${newWidth}%`;
+          progressPercent.textContent = `${newWidth}%`;
+        }
+      }, 300);
+      
+      const res = await fetch('/gallery/upload', {
+        method: 'POST',
+        body: formData
+      });
+      
+      // Clear the interval
+      clearInterval(interval);
+      
+      // Complete the progress bar
+      progressBar.style.width = '100%';
+      progressPercent.textContent = '100%';
+      
+      // Handle response
+      if (!res.ok) {
+        const contentType = res.headers.get('content-type');
+        
+        if (contentType && contentType.includes('application/json')) {
+          const errorData = await res.json();
+          throw new Error(errorData.error || errorData.details || 'Upload failed');
+        } else {
+          const textResponse = await res.text();
+          console.error('Non-JSON error response:', textResponse);
+          throw new Error('Server returned an invalid response');
+        }
+      }
+      
+      const data = await res.json();
+      
+      if (data.success) {
+        // Show success message
+        uploadStatus.querySelector('p').textContent = data.message || 'Images uploaded successfully!';
+        uploadStatus.classList.remove('hidden');
+        
+        // Trigger success notification
+        showNotification('Images uploaded successfully!', 'success');
+        
+        // Wait a moment before redirecting
+        setTimeout(() => {
+          window.location.href = '/gallery';
+        }, 2000);
+      } else {
+        throw new Error(data.error || 'Upload failed');
+      }
+    } catch (err) {
+      console.error('Upload error:', err);
+      
+      // Show error message
+      uploadError.querySelector('p').textContent = err.message || 'Server error occurred';
+      uploadError.classList.remove('hidden');
+      
+      // Trigger error notification
+      showNotification('Upload failed: ' + err.message, 'error');
+      
+      // Hide progress bar on error
+      uploadProgress.classList.add('hidden');
+    } finally {
+      // Reset button state
+      uploadBtn.disabled = false;
+      uploadBtn.innerHTML = '<i class="fas fa-cloud-upload-alt mr-2"></i><span>Upload Images</span>';
+    }
+  });
+</script>
+
+<%- include('../partials/footer') %>

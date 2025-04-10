@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %> - Image Cloud</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: {
+              50: '#eef2ff',
+              100: '#e0e7ff',
+              200: '#c7d2fe',
+              300: '#a5b4fc',
+              400: '#818cf8',
+              500: '#6366f1',
+              600: '#4f46e5',
+              700: '#4338ca',
+              800: '#3730a3',
+              900: '#312e81',
+            },
+            secondary: {
+              50: '#f0f9ff',
+              100: '#e0f2fe',
+              200: '#bae6fd',
+              300: '#7dd3fc',
+              400: '#38bdf8',
+              500: '#0ea5e9',
+              600: '#0284c7',
+              700: '#0369a1',
+              800: '#075985',
+              900: '#0c4a6e',
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+          },
+          animation: {
+            'fade-in': 'fadeIn 0.5s ease-out',
+            'slide-up': 'slideUp 0.3s ease-out',
+          },
+          keyframes: {
+            fadeIn: {
+              '0%': { opacity: '0' },
+              '100%': { opacity: '1' },
+            },
+            slideUp: {
+              '0%': { transform: 'translateY(20px)', opacity: '0' },
+              '100%': { transform: 'translateY(0)', opacity: '1' },
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+    
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    
+    .animate-slide-in {
+      animation: slideIn 0.3s ease forwards;
+    }
+    
+    @keyframes slideIn {
+      from { transform: translateY(10px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    
+    .card {
+      transition: all 0.3s ease;
+    }
+    
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .gradient-bg {
+      background: linear-gradient(135deg, #4f46e5 0%, #0ea5e9 100%);
+    }
+    
+    .glassmorphism {
+      background: rgba(255, 255, 255, 0.6);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    
+    .rotate-hover {
+      transition: transform 0.3s ease;
+    }
+    
+    .rotate-hover:hover {
+      transform: rotate(15deg);
+    }
+  </style>
+</head>
+<body class="bg-gray-50 min-h-screen flex flex-col">
+  <!-- Top navigation with gradient background -->
+  <header class="gradient-bg text-white shadow-lg">
+    <div class="container mx-auto px-4 py-4">
+      <div class="flex justify-between items-center">
+        <a href="/" class="flex items-center space-x-2 text-2xl font-bold">
+          <div class="bg-white text-primary-600 h-10 w-10 rounded-full flex items-center justify-center rotate-hover">
+            <i class="fas fa-cloud-upload-alt"></i>
+          </div>
+          <span>Image Cloud</span>
+        </a>
+        
+        <!-- Desktop Navigation -->
+        <nav class="hidden md:flex items-center space-x-6">
+          <a href="/" class="hover:text-primary-200 transition duration-200 flex items-center space-x-1 <%= path === '/' ? 'border-b-2 border-white pb-1' : '' %>">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+          </a>
+          <% if (locals.user) { %>
+            <a href="/upload" class="hover:text-primary-200 transition duration-200 flex items-center space-x-1 <%= path === '/upload' ? 'border-b-2 border-white pb-1' : '' %>">
+              <i class="fas fa-upload"></i>
+              <span>Upload</span>
+            </a>
+            <a href="/gallery" class="hover:text-primary-200 transition duration-200 flex items-center space-x-1 <%= path.startsWith('/gallery') ? 'border-b-2 border-white pb-1' : '' %>">
+              <i class="fas fa-th"></i>
+              <span>Gallery</span>
+            </a>
+            <a href="/upload/profile" class="hover:text-primary-200 transition duration-200 flex items-center space-x-1 <%= path === '/upload/profile' ? 'border-b-2 border-white pb-1' : '' %>">
+              <i class="fas fa-user"></i>
+              <span>Profile</span>
+            </a>
+            <a href="/auth/logout" class="bg-red-500 hover:bg-red-600 px-4 py-2 rounded-full text-sm font-medium transition duration-200 flex items-center space-x-1 ml-2">
+              <i class="fas fa-sign-out-alt"></i>
+              <span>Logout</span>
+            </a>
+          <% } else { %>
+            <a href="/auth/login" class="hover:text-primary-200 transition duration-200 flex items-center space-x-1 <%= path === '/auth/login' ? 'border-b-2 border-white pb-1' : '' %>">
+              <i class="fas fa-sign-in-alt"></i>
+              <span>Login</span>
+            </a>
+            <a href="/auth/signup" class="bg-white text-primary-600 hover:bg-gray-100 px-4 py-2 rounded-full text-sm font-medium transition duration-200 flex items-center space-x-1 ml-2">
+              <i class="fas fa-user-plus"></i>
+              <span>Register</span>
+            </a>
+          <% } %>
+        </nav>
+        
+        <!-- Mobile menu button -->
+        <button type="button" class="mobile-menu-button md:hidden inline-flex items-center justify-center p-2 rounded-full text-white hover:text-primary-200 hover:bg-primary-700 focus:outline-none transition duration-200">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+    
+    <!-- Mobile menu -->
+    <div class="md:hidden mobile-menu hidden bg-primary-700 animate-slide-in">
+      <div class="px-4 py-3 space-y-2">
+        <a href="/" class="block px-3 py-2 rounded-lg hover:bg-primary-600 transition duration-200 <%= path === '/' ? 'bg-primary-600 font-medium' : '' %>">
+          <i class="fas fa-home mr-2"></i> Home
+        </a>
+        <% if (locals.user) { %>
+          <a href="/upload" class="block px-3 py-2 rounded-lg hover:bg-primary-600 transition duration-200 <%= path === '/upload' ? 'bg-primary-600 font-medium' : '' %>">
+            <i class="fas fa-upload mr-2"></i> Upload
+          </a>
+          <a href="/gallery" class="block px-3 py-2 rounded-lg hover:bg-primary-600 transition duration-200 <%= path.startsWith('/gallery') ? 'bg-primary-600 font-medium' : '' %>">
+            <i class="fas fa-th mr-2"></i> Gallery
+          </a>
+          <a href="/upload/profile" class="block px-3 py-2 rounded-lg hover:bg-primary-600 transition duration-200 <%= path === '/upload/profile' ? 'bg-primary-600 font-medium' : '' %>">
+            <i class="fas fa-user mr-2"></i> Profile
+          </a>
+          <a href="/auth/logout" class="block px-3 py-2 rounded-lg text-white bg-red-500 hover:bg-red-600 mt-4 transition duration-200">
+            <i class="fas fa-sign-out-alt mr-2"></i> Logout
+          </a>
+        <% } else { %>
+          <a href="/auth/login" class="block px-3 py-2 rounded-lg hover:bg-primary-600 transition duration-200 <%= path === '/auth/login' ? 'bg-primary-600 font-medium' : '' %>">
+            <i class="fas fa-sign-in-alt mr-2"></i> Login
+          </a>
+          <a href="/auth/signup" class="block px-3 py-2 rounded-lg hover:bg-primary-600 transition duration-200 <%= path === '/auth/signup' ? 'bg-primary-600 font-medium' : '' %>">
+            <i class="fas fa-user-plus mr-2"></i> Register
+          </a>
+        <% } %>
+      </div>
+    </div>
+  </header>

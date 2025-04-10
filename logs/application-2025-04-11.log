@@ -1,0 +1,362 @@
+{"level":"debug","message":"Logging initialized at debug level","service":"user-service","timestamp":"2025-04-11 00:06:08"}
+{"level":"info","message":"Starting application...","service":"user-service","timestamp":"2025-04-11 00:06:08"}
+{"apiKeyExists":true,"apiSecretExists":true,"cloudName":"di2wdh9jl","level":"debug","message":"Cloudinary Configuration:","service":"user-service","timestamp":"2025-04-11 00:06:08"}
+{"level":"info","message":"Cloudinary configuration successful","service":"user-service","timestamp":"2025-04-11 00:06:08"}
+{"level":"info","message":"Database connection initiated","service":"user-service","timestamp":"2025-04-11 00:06:08"}
+{"level":"info","message":"Server running on port 3000","service":"user-service","timestamp":"2025-04-11 00:06:08"}
+{"level":"debug","message":"Logging initialized at debug level","service":"user-service","timestamp":"2025-04-11 00:07:46"}
+{"level":"info","message":"Starting application...","service":"user-service","timestamp":"2025-04-11 00:07:46"}
+{"apiKeyExists":true,"apiSecretExists":true,"cloudName":"di2wdh9jl","level":"debug","message":"Cloudinary Configuration:","service":"user-service","timestamp":"2025-04-11 00:07:46"}
+{"level":"info","message":"Cloudinary configuration successful","service":"user-service","timestamp":"2025-04-11 00:07:46"}
+{"level":"info","message":"Database connection initiated","service":"user-service","timestamp":"2025-04-11 00:07:46"}
+{"level":"info","message":"Server running on port 3000","service":"user-service","timestamp":"2025-04-11 00:07:46"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 00:07:49"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 00:12:53"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 00:13:08"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 00:13:10"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 00:13:18"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 00:13:20"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 00:13:22"}
+{"level":"debug","message":"Logging initialized at debug level","service":"user-service","timestamp":"2025-04-11 00:22:21"}
+{"level":"info","message":"Starting application...","service":"user-service","timestamp":"2025-04-11 00:22:21"}
+{"apiKeyExists":true,"apiSecretExists":true,"cloudName":"di2wdh9jl","level":"debug","message":"Cloudinary Configuration:","service":"user-service","timestamp":"2025-04-11 00:22:21"}
+{"level":"info","message":"Cloudinary configuration successful","service":"user-service","timestamp":"2025-04-11 00:22:21"}
+{"level":"info","message":"Database connection initiated","service":"user-service","timestamp":"2025-04-11 00:22:21"}
+{"level":"info","message":"Server running on port 3000","service":"user-service","timestamp":"2025-04-11 00:22:21"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 00:22:28"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 00:22:30"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 00:22:32"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 00:22:44"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 00:22:48"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 00:22:50"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 00:22:51"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 00:22:55"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 00:22:57"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 00:23:14"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 00:24:53"}
+{"level":"debug","message":"Logging initialized at debug level","service":"user-service","timestamp":"2025-04-11 00:25:20"}
+{"level":"info","message":"Starting application...","service":"user-service","timestamp":"2025-04-11 00:25:20"}
+{"apiKeyExists":true,"apiSecretExists":true,"cloudName":"di2wdh9jl","level":"debug","message":"Cloudinary Configuration:","service":"user-service","timestamp":"2025-04-11 00:25:20"}
+{"level":"info","message":"Cloudinary configuration successful","service":"user-service","timestamp":"2025-04-11 00:25:20"}
+{"level":"info","message":"Database connection initiated","service":"user-service","timestamp":"2025-04-11 00:25:20"}
+{"level":"info","message":"Server running on port 3000","service":"user-service","timestamp":"2025-04-11 00:25:20"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 00:25:24"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 00:25:25"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 00:25:28"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 00:25:33"}
+{"level":"debug","message":"Logging initialized at debug level","service":"user-service","timestamp":"2025-04-11 00:29:23"}
+{"level":"info","message":"Starting application...","service":"user-service","timestamp":"2025-04-11 00:29:23"}
+{"apiKeyExists":true,"apiSecretExists":true,"cloudName":"di2wdh9jl","level":"debug","message":"Cloudinary Configuration:","service":"user-service","timestamp":"2025-04-11 00:29:23"}
+{"level":"info","message":"Cloudinary configuration successful","service":"user-service","timestamp":"2025-04-11 00:29:23"}
+{"level":"info","message":"Database connection initiated","service":"user-service","timestamp":"2025-04-11 00:29:23"}
+{"level":"info","message":"Server running on port 3000","service":"user-service","timestamp":"2025-04-11 00:29:23"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 00:29:27"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 00:29:31"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 00:29:32"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 00:29:42"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 00:29:44"}
+{"level":"debug","message":"Logging initialized at debug level","service":"user-service","timestamp":"2025-04-11 00:32:15"}
+{"level":"info","message":"Starting application...","service":"user-service","timestamp":"2025-04-11 00:32:15"}
+{"apiKeyExists":true,"apiSecretExists":true,"cloudName":"di2wdh9jl","level":"debug","message":"Cloudinary Configuration:","service":"user-service","timestamp":"2025-04-11 00:32:15"}
+{"level":"info","message":"Cloudinary configuration successful","service":"user-service","timestamp":"2025-04-11 00:32:15"}
+{"level":"info","message":"Database connection initiated","service":"user-service","timestamp":"2025-04-11 00:32:15"}
+{"level":"info","message":"Server running on port 3000","service":"user-service","timestamp":"2025-04-11 00:32:15"}
+{"level":"debug","message":"Logging initialized at debug level","service":"user-service","timestamp":"2025-04-11 00:32:38"}
+{"level":"info","message":"Starting application...","service":"user-service","timestamp":"2025-04-11 00:32:38"}
+{"apiKeyExists":true,"apiSecretExists":true,"cloudName":"di2wdh9jl","level":"debug","message":"Cloudinary Configuration:","service":"user-service","timestamp":"2025-04-11 00:32:38"}
+{"level":"info","message":"Cloudinary configuration successful","service":"user-service","timestamp":"2025-04-11 00:32:38"}
+{"level":"info","message":"Database connection initiated","service":"user-service","timestamp":"2025-04-11 00:32:38"}
+{"level":"info","message":"Server running on port 3000","service":"user-service","timestamp":"2025-04-11 00:32:38"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 00:32:42"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 00:32:47"}
+{"level":"debug","message":"Logging initialized at debug level","service":"user-service","timestamp":"2025-04-11 00:34:12"}
+{"level":"info","message":"Starting application...","service":"user-service","timestamp":"2025-04-11 00:34:12"}
+{"apiKeyExists":true,"apiSecretExists":true,"cloudName":"di2wdh9jl","level":"debug","message":"Cloudinary Configuration:","service":"user-service","timestamp":"2025-04-11 00:34:12"}
+{"level":"info","message":"Cloudinary configuration successful","service":"user-service","timestamp":"2025-04-11 00:34:12"}
+{"level":"info","message":"Database connection initiated","service":"user-service","timestamp":"2025-04-11 00:34:12"}
+{"level":"info","message":"Server running on port 3000","service":"user-service","timestamp":"2025-04-11 00:34:12"}
+{"level":"debug","message":"Logging initialized at debug level","service":"user-service","timestamp":"2025-04-11 00:35:26"}
+{"level":"info","message":"Starting application...","service":"user-service","timestamp":"2025-04-11 00:35:26"}
+{"apiKeyExists":true,"apiSecretExists":true,"cloudName":"di2wdh9jl","level":"debug","message":"Cloudinary Configuration:","service":"user-service","timestamp":"2025-04-11 00:35:26"}
+{"level":"info","message":"Cloudinary configuration successful","service":"user-service","timestamp":"2025-04-11 00:35:26"}
+{"level":"info","message":"Database connection initiated","service":"user-service","timestamp":"2025-04-11 00:35:26"}
+{"level":"info","message":"Server running on port 3000","service":"user-service","timestamp":"2025-04-11 00:35:26"}
+{"level":"debug","message":"Logging initialized at debug level","service":"user-service","timestamp":"2025-04-11 00:35:27"}
+{"level":"info","message":"Starting application...","service":"user-service","timestamp":"2025-04-11 00:35:27"}
+{"apiKeyExists":true,"apiSecretExists":true,"cloudName":"di2wdh9jl","level":"debug","message":"Cloudinary Configuration:","service":"user-service","timestamp":"2025-04-11 00:35:27"}
+{"level":"info","message":"Cloudinary configuration successful","service":"user-service","timestamp":"2025-04-11 00:35:27"}
+{"level":"info","message":"Database connection initiated","service":"user-service","timestamp":"2025-04-11 00:35:27"}
+{"level":"info","message":"Server running on port 3000","service":"user-service","timestamp":"2025-04-11 00:35:27"}
+{"level":"debug","message":"Logging initialized at debug level","service":"user-service","timestamp":"2025-04-11 00:35:28"}
+{"level":"info","message":"Starting application...","service":"user-service","timestamp":"2025-04-11 00:35:28"}
+{"apiKeyExists":true,"apiSecretExists":true,"cloudName":"di2wdh9jl","level":"debug","message":"Cloudinary Configuration:","service":"user-service","timestamp":"2025-04-11 00:35:28"}
+{"level":"info","message":"Cloudinary configuration successful","service":"user-service","timestamp":"2025-04-11 00:35:28"}
+{"level":"info","message":"Database connection initiated","service":"user-service","timestamp":"2025-04-11 00:35:28"}
+{"level":"info","message":"Server running on port 3000","service":"user-service","timestamp":"2025-04-11 00:35:28"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 00:35:52"}
+{"level":"info","message":"::1 - - [10/Apr/2025:15:35:52 +0000] \"GET / HTTP/1.1\" 200 4082 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 00:35:52"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 00:36:01"}
+{"level":"info","message":"::1 - - [10/Apr/2025:15:36:01 +0000] \"GET /auth/login HTTP/1.1\" 200 14434 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 00:36:01"}
+{"level":"info","message":"::1 - - [10/Apr/2025:15:36:18 +0000] \"POST /auth/login HTTP/1.1\" 200 35 \"http://localhost:3000/auth/login\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 00:36:18"}
+{"level":"debug","message":"User authenticated:","service":"user-service","timestamp":"2025-04-11 00:36:19","userId":"67f7c4d564f27306155386a7","username":"test"}
+{"level":"info","message":"::1 - - [10/Apr/2025:15:36:19 +0000] \"GET / HTTP/1.1\" 200 5095 \"http://localhost:3000/auth/login\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 00:36:19"}
+{"level":"debug","message":"User authenticated:","service":"user-service","timestamp":"2025-04-11 00:56:00","userId":"67f7c4d564f27306155386a7","username":"test"}
+{"level":"info","message":"::1 - - [10/Apr/2025:15:56:00 +0000] \"GET /upload/profile HTTP/1.1\" 200 15217 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 00:56:00"}
+{"level":"debug","message":"User authenticated:","service":"user-service","timestamp":"2025-04-11 00:56:50","userId":"67f7c4d564f27306155386a7","username":"test"}
+{"level":"info","message":"::1 - - [10/Apr/2025:15:56:50 +0000] \"GET /upload HTTP/1.1\" 304 - \"http://localhost:3000/upload/profile\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 00:56:50"}
+{"level":"debug","message":"User authenticated:","service":"user-service","timestamp":"2025-04-11 00:56:52","userId":"67f7c4d564f27306155386a7","username":"test"}
+{"level":"info","message":"::1 - - [10/Apr/2025:15:56:52 +0000] \"GET /gallery HTTP/1.1\" 200 24027 \"http://localhost:3000/upload\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 00:56:52"}
+{"level":"debug","message":"User authenticated:","service":"user-service","timestamp":"2025-04-11 01:01:00","userId":"67f7c4d564f27306155386a7","username":"test"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:01:00 +0000] \"GET /upload/profile HTTP/1.1\" 304 - \"http://localhost:3000/gallery\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:01:00"}
+{"level":"debug","message":"User authenticated:","service":"user-service","timestamp":"2025-04-11 01:01:04","userId":"67f7c4d564f27306155386a7","username":"test"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:01:04 +0000] \"GET /gallery HTTP/1.1\" 304 - \"http://localhost:3000/upload/profile\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:01:04"}
+{"level":"debug","message":"User authenticated:","service":"user-service","timestamp":"2025-04-11 01:01:06","userId":"67f7c4d564f27306155386a7","username":"test"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:01:06 +0000] \"GET /upload HTTP/1.1\" 304 - \"http://localhost:3000/gallery\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:01:06"}
+{"level":"debug","message":"User authenticated:","service":"user-service","timestamp":"2025-04-11 01:01:07","userId":"67f7c4d564f27306155386a7","username":"test"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:01:07 +0000] \"GET / HTTP/1.1\" 304 - \"http://localhost:3000/upload\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:01:07"}
+{"level":"debug","message":"User authenticated:","service":"user-service","timestamp":"2025-04-11 01:01:13","userId":"67f7c4d564f27306155386a7","username":"test"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:01:13 +0000] \"GET / HTTP/1.1\" 304 - \"http://localhost:3000/upload\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:01:13"}
+{"level":"debug","message":"User authenticated:","service":"user-service","timestamp":"2025-04-11 01:01:32","userId":"67f7c4d564f27306155386a7","username":"test"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:01:32 +0000] \"GET / HTTP/1.1\" 304 - \"http://localhost:3000/upload\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:01:32"}
+{"level":"debug","message":"User authenticated:","service":"user-service","timestamp":"2025-04-11 01:01:47","userId":"67f7c4d564f27306155386a7","username":"test"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:01:47 +0000] \"GET /upload HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:01:47"}
+{"level":"debug","message":"User authenticated:","service":"user-service","timestamp":"2025-04-11 01:01:50","userId":"67f7c4d564f27306155386a7","username":"test"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:01:50 +0000] \"GET /gallery HTTP/1.1\" 304 - \"http://localhost:3000/upload\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:01:50"}
+{"level":"debug","message":"User authenticated:","service":"user-service","timestamp":"2025-04-11 01:06:05","userId":"67f7c4d564f27306155386a7","username":"test"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:06:05 +0000] \"GET /gallery HTTP/1.1\" 200 24036 \"http://localhost:3000/upload\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:06:05"}
+{"level":"debug","message":"User authenticated:","service":"user-service","timestamp":"2025-04-11 01:07:19","userId":"67f7c4d564f27306155386a7","username":"test"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:07:19 +0000] \"GET /gallery HTTP/1.1\" 200 24045 \"http://localhost:3000/upload\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:07:19"}
+{"level":"debug","message":"User authenticated:","service":"user-service","timestamp":"2025-04-11 01:07:21","userId":"67f7c4d564f27306155386a7","username":"test"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:07:21 +0000] \"GET /gallery HTTP/1.1\" 304 - \"http://localhost:3000/upload\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:07:21"}
+{"level":"debug","message":"User authenticated:","service":"user-service","timestamp":"2025-04-11 01:07:43","userId":"67f7c4d564f27306155386a7","username":"test"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:07:43 +0000] \"GET /gallery HTTP/1.1\" 200 24036 \"http://localhost:3000/upload\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:07:43"}
+{"level":"debug","message":"User authenticated:","service":"user-service","timestamp":"2025-04-11 01:07:45","userId":"67f7c4d564f27306155386a7","username":"test"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:07:45 +0000] \"GET / HTTP/1.1\" 304 - \"http://localhost:3000/gallery\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:07:45"}
+{"level":"debug","message":"User authenticated:","service":"user-service","timestamp":"2025-04-11 01:07:51","userId":"67f7c4d564f27306155386a7","username":"test"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:07:51 +0000] \"GET /upload HTTP/1.1\" 304 - \"http://localhost:3000/gallery\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:07:51"}
+{"level":"debug","message":"User authenticated:","service":"user-service","timestamp":"2025-04-11 01:07:53","userId":"67f7c4d564f27306155386a7","username":"test"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:07:53 +0000] \"GET /gallery HTTP/1.1\" 304 - \"http://localhost:3000/upload\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:07:53"}
+{"level":"debug","message":"User authenticated:","service":"user-service","timestamp":"2025-04-11 01:07:55","userId":"67f7c4d564f27306155386a7","username":"test"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:07:55 +0000] \"GET /upload/profile HTTP/1.1\" 304 - \"http://localhost:3000/gallery\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:07:55"}
+{"level":"debug","message":"User authenticated:","service":"user-service","timestamp":"2025-04-11 01:07:58","userId":"67f7c4d564f27306155386a7","username":"test"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:07:58 +0000] \"GET / HTTP/1.1\" 304 - \"http://localhost:3000/upload/profile\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:07:58"}
+{"level":"debug","message":"User authenticated:","service":"user-service","timestamp":"2025-04-11 01:11:33","userId":"67f7c4d564f27306155386a7","username":"test"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:11:33 +0000] \"GET / HTTP/1.1\" 200 9826 \"http://localhost:3000/upload/profile\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:11:33"}
+{"level":"debug","message":"User authenticated:","service":"user-service","timestamp":"2025-04-11 01:11:38","userId":"67f7c4d564f27306155386a7","username":"test"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:11:38 +0000] \"GET /upload HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:11:38"}
+{"level":"debug","message":"User authenticated:","service":"user-service","timestamp":"2025-04-11 01:11:42","userId":"67f7c4d564f27306155386a7","username":"test"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:11:42 +0000] \"GET /gallery HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:11:42"}
+{"level":"debug","message":"User authenticated:","service":"user-service","timestamp":"2025-04-11 01:11:46","userId":"67f7c4d564f27306155386a7","username":"test"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:11:46 +0000] \"GET / HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:11:46"}
+{"level":"debug","message":"User authenticated:","service":"user-service","timestamp":"2025-04-11 01:11:48","userId":"67f7c4d564f27306155386a7","username":"test"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:11:48 +0000] \"GET /upload HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:11:48"}
+{"level":"debug","message":"User authenticated:","service":"user-service","timestamp":"2025-04-11 01:11:51","userId":"67f7c4d564f27306155386a7","username":"test"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:11:51 +0000] \"GET /gallery HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:11:51"}
+{"level":"debug","message":"User authenticated:","service":"user-service","timestamp":"2025-04-11 01:11:55","userId":"67f7c4d564f27306155386a7","username":"test"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:11:55 +0000] \"GET /upload/profile HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:11:55"}
+{"level":"debug","message":"User authenticated:","service":"user-service","timestamp":"2025-04-11 01:11:59","userId":"67f7c4d564f27306155386a7","username":"test"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:11:59 +0000] \"GET /upload HTTP/1.1\" 304 - \"http://localhost:3000/upload/profile\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:11:59"}
+{"level":"debug","message":"Logging initialized at debug level","service":"user-service","timestamp":"2025-04-11 01:14:48"}
+{"level":"info","message":"Starting application...","service":"user-service","timestamp":"2025-04-11 01:14:48"}
+{"apiKeyExists":true,"apiSecretExists":true,"cloudName":"di2wdh9jl","level":"debug","message":"Cloudinary Configuration:","service":"user-service","timestamp":"2025-04-11 01:14:48"}
+{"level":"info","message":"Cloudinary configuration successful","service":"user-service","timestamp":"2025-04-11 01:14:48"}
+{"level":"info","message":"Database connection initiated","service":"user-service","timestamp":"2025-04-11 01:14:48"}
+{"level":"info","message":"Server running on port 3000","service":"user-service","timestamp":"2025-04-11 01:14:48"}
+{"level":"debug","message":"Logging initialized at debug level","service":"user-service","timestamp":"2025-04-11 01:15:04"}
+{"level":"info","message":"Starting application...","service":"user-service","timestamp":"2025-04-11 01:15:04"}
+{"apiKeyExists":true,"apiSecretExists":true,"cloudName":"di2wdh9jl","level":"debug","message":"Cloudinary Configuration:","service":"user-service","timestamp":"2025-04-11 01:15:04"}
+{"level":"info","message":"Cloudinary configuration successful","service":"user-service","timestamp":"2025-04-11 01:15:04"}
+{"level":"info","message":"Database connection initiated","service":"user-service","timestamp":"2025-04-11 01:15:04"}
+{"level":"info","message":"Server running on port 3000","service":"user-service","timestamp":"2025-04-11 01:15:04"}
+{"level":"debug","message":"Logging initialized at debug level","service":"user-service","timestamp":"2025-04-11 01:15:06"}
+{"level":"info","message":"Starting application...","service":"user-service","timestamp":"2025-04-11 01:15:06"}
+{"apiKeyExists":true,"apiSecretExists":true,"cloudName":"di2wdh9jl","level":"debug","message":"Cloudinary Configuration:","service":"user-service","timestamp":"2025-04-11 01:15:06"}
+{"level":"info","message":"Cloudinary configuration successful","service":"user-service","timestamp":"2025-04-11 01:15:06"}
+{"level":"info","message":"Database connection initiated","service":"user-service","timestamp":"2025-04-11 01:15:06"}
+{"level":"info","message":"Server running on port 3000","service":"user-service","timestamp":"2025-04-11 01:15:06"}
+{"level":"debug","message":"Logging initialized at debug level","service":"user-service","timestamp":"2025-04-11 01:16:46"}
+{"level":"info","message":"Starting application...","service":"user-service","timestamp":"2025-04-11 01:16:46"}
+{"apiKeyExists":true,"apiSecretExists":true,"cloudName":"di2wdh9jl","level":"debug","message":"Cloudinary Configuration:","service":"user-service","timestamp":"2025-04-11 01:16:46"}
+{"level":"info","message":"Cloudinary configuration successful","service":"user-service","timestamp":"2025-04-11 01:16:46"}
+{"level":"info","message":"Database connection initiated","service":"user-service","timestamp":"2025-04-11 01:16:47"}
+{"level":"info","message":"Server running on port 3000","service":"user-service","timestamp":"2025-04-11 01:16:47"}
+{"level":"debug","message":"Logging initialized at debug level","service":"user-service","timestamp":"2025-04-11 01:16:50"}
+{"level":"info","message":"Starting application...","service":"user-service","timestamp":"2025-04-11 01:16:50"}
+{"apiKeyExists":true,"apiSecretExists":true,"cloudName":"di2wdh9jl","level":"debug","message":"Cloudinary Configuration:","service":"user-service","timestamp":"2025-04-11 01:16:50"}
+{"level":"info","message":"Cloudinary configuration successful","service":"user-service","timestamp":"2025-04-11 01:16:50"}
+{"level":"info","message":"Database connection initiated","service":"user-service","timestamp":"2025-04-11 01:16:50"}
+{"level":"info","message":"Server running on port 3000","service":"user-service","timestamp":"2025-04-11 01:16:50"}
+{"level":"debug","message":"User authenticated:","service":"user-service","timestamp":"2025-04-11 01:16:50","userId":"67f7c4d564f27306155386a7","username":"test"}
+{"level":"error","message":"Server error: Missing catch or finally after try in C:\\Users\\shohe\\Desktop\\file_upload\\views\\index.ejs while compiling ejs\n\nIf the above error is not helpful, you may want to try EJS-Lint:\nhttps://github.com/RyanZim/EJS-Lint\nOr, if you meant to create an async function, pass `async: true` as an option.","service":"user-service","stack":"SyntaxError: Missing catch or finally after try in C:\\Users\\shohe\\Desktop\\file_upload\\views\\index.ejs while compiling ejs\n\nIf the above error is not helpful, you may want to try EJS-Lint:\nhttps://github.com/RyanZim/EJS-Lint\nOr, if you meant to create an async function, pass `async: true` as an option.\n    at new Function (<anonymous>)\n    at Template.compile (C:\\Users\\shohe\\Desktop\\file_upload\\node_modules\\ejs\\lib\\ejs.js:673:12)\n    at Object.compile (C:\\Users\\shohe\\Desktop\\file_upload\\node_modules\\ejs\\lib\\ejs.js:398:16)\n    at handleCache (C:\\Users\\shohe\\Desktop\\file_upload\\node_modules\\ejs\\lib\\ejs.js:235:18)\n    at tryHandleCache (C:\\Users\\shohe\\Desktop\\file_upload\\node_modules\\ejs\\lib\\ejs.js:274:16)\n    at exports.renderFile [as engine] (C:\\Users\\shohe\\Desktop\\file_upload\\node_modules\\ejs\\lib\\ejs.js:491:10)\n    at View.render (C:\\Users\\shohe\\Desktop\\file_upload\\node_modules\\express\\lib\\view.js:135:8)\n    at tryRender (C:\\Users\\shohe\\Desktop\\file_upload\\node_modules\\express\\lib\\application.js:657:10)\n    at Function.render (C:\\Users\\shohe\\Desktop\\file_upload\\node_modules\\express\\lib\\application.js:609:3)\n    at ServerResponse.render (C:\\Users\\shohe\\Desktop\\file_upload\\node_modules\\express\\lib\\response.js:1049:7)","timestamp":"2025-04-11 01:16:50"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:16:50 +0000] \"GET / HTTP/1.1\" 500 336 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:16:50"}
+{"level":"debug","message":"Logging initialized at debug level","service":"user-service","timestamp":"2025-04-11 01:19:17"}
+{"level":"info","message":"Starting application...","service":"user-service","timestamp":"2025-04-11 01:19:17"}
+{"apiKeyExists":true,"apiSecretExists":true,"cloudName":"di2wdh9jl","level":"debug","message":"Cloudinary Configuration:","service":"user-service","timestamp":"2025-04-11 01:19:17"}
+{"level":"info","message":"Cloudinary configuration successful","service":"user-service","timestamp":"2025-04-11 01:19:17"}
+{"level":"info","message":"Database connection initiated","service":"user-service","timestamp":"2025-04-11 01:19:17"}
+{"level":"info","message":"Server running on port 3000","service":"user-service","timestamp":"2025-04-11 01:19:17"}
+{"level":"debug","message":"User authenticated:","service":"user-service","timestamp":"2025-04-11 01:19:20","userId":"67f7c4d564f27306155386a7","username":"test"}
+{"level":"error","message":"Server error: Missing catch or finally after try in C:\\Users\\shohe\\Desktop\\file_upload\\views\\index.ejs while compiling ejs\n\nIf the above error is not helpful, you may want to try EJS-Lint:\nhttps://github.com/RyanZim/EJS-Lint\nOr, if you meant to create an async function, pass `async: true` as an option.","service":"user-service","stack":"SyntaxError: Missing catch or finally after try in C:\\Users\\shohe\\Desktop\\file_upload\\views\\index.ejs while compiling ejs\n\nIf the above error is not helpful, you may want to try EJS-Lint:\nhttps://github.com/RyanZim/EJS-Lint\nOr, if you meant to create an async function, pass `async: true` as an option.\n    at new Function (<anonymous>)\n    at Template.compile (C:\\Users\\shohe\\Desktop\\file_upload\\node_modules\\ejs\\lib\\ejs.js:673:12)\n    at Object.compile (C:\\Users\\shohe\\Desktop\\file_upload\\node_modules\\ejs\\lib\\ejs.js:398:16)\n    at handleCache (C:\\Users\\shohe\\Desktop\\file_upload\\node_modules\\ejs\\lib\\ejs.js:235:18)\n    at tryHandleCache (C:\\Users\\shohe\\Desktop\\file_upload\\node_modules\\ejs\\lib\\ejs.js:274:16)\n    at exports.renderFile [as engine] (C:\\Users\\shohe\\Desktop\\file_upload\\node_modules\\ejs\\lib\\ejs.js:491:10)\n    at View.render (C:\\Users\\shohe\\Desktop\\file_upload\\node_modules\\express\\lib\\view.js:135:8)\n    at tryRender (C:\\Users\\shohe\\Desktop\\file_upload\\node_modules\\express\\lib\\application.js:657:10)\n    at Function.render (C:\\Users\\shohe\\Desktop\\file_upload\\node_modules\\express\\lib\\application.js:609:3)\n    at ServerResponse.render (C:\\Users\\shohe\\Desktop\\file_upload\\node_modules\\express\\lib\\response.js:1049:7)","timestamp":"2025-04-11 01:19:20"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:19:20 +0000] \"GET / HTTP/1.1\" 500 336 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:19:20"}
+{"level":"debug","message":"Logging initialized at debug level","service":"user-service","timestamp":"2025-04-11 01:23:10"}
+{"level":"info","message":"Starting application...","service":"user-service","timestamp":"2025-04-11 01:23:10"}
+{"apiKeyExists":true,"apiSecretExists":true,"cloudName":"di2wdh9jl","level":"debug","message":"Cloudinary Configuration:","service":"user-service","timestamp":"2025-04-11 01:23:10"}
+{"level":"info","message":"Cloudinary configuration successful","service":"user-service","timestamp":"2025-04-11 01:23:10"}
+{"level":"info","message":"Database connection initiated","service":"user-service","timestamp":"2025-04-11 01:23:10"}
+{"level":"info","message":"Server running on port 3000","service":"user-service","timestamp":"2025-04-11 01:23:10"}
+{"level":"debug","message":"User authenticated:","service":"user-service","timestamp":"2025-04-11 01:23:15","userId":"67f7c4d564f27306155386a7","username":"test"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:23:15 +0000] \"GET / HTTP/1.1\" 200 9914 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:23:15"}
+{"level":"debug","message":"User authenticated:","service":"user-service","timestamp":"2025-04-11 01:23:19","userId":"67f7c4d564f27306155386a7","username":"test"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:23:19 +0000] \"GET / HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:23:19"}
+{"level":"debug","message":"User authenticated:","service":"user-service","timestamp":"2025-04-11 01:23:20","userId":"67f7c4d564f27306155386a7","username":"test"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:23:20 +0000] \"GET /upload HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:23:20"}
+{"level":"debug","message":"User authenticated:","service":"user-service","timestamp":"2025-04-11 01:23:23","userId":"67f7c4d564f27306155386a7","username":"test"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:23:23 +0000] \"GET /auth/logout HTTP/1.1\" 302 30 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:23:23"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 01:23:23"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:23:23 +0000] \"GET / HTTP/1.1\" 200 9390 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:23:23"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 01:23:26"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:23:26 +0000] \"GET /auth/login HTTP/1.1\" 200 14434 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:23:26"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 01:28:36"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:28:36 +0000] \"GET /auth/login HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:28:36"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 01:28:42"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:28:42 +0000] \"GET / HTTP/1.1\" 200 9302 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:28:42"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 01:28:44"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:28:44 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:28:44"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 01:28:46"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:28:46 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:28:46"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 01:28:51"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:28:51 +0000] \"GET /auth/login HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:28:51"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 01:28:59"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:28:59 +0000] \"GET /auth/signup HTTP/1.1\" 200 11990 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:28:59"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 01:29:13"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:29:13 +0000] \"GET / HTTP/1.1\" 304 - \"http://localhost:3000/auth/signup\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:29:13"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 01:29:23"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:29:23 +0000] \"GET / HTTP/1.1\" 304 - \"http://localhost:3000/auth/signup\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:29:23"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 01:29:25"}
+{"level":"warn","message":"404 Not Found: /auth/forgot-password","service":"user-service","timestamp":"2025-04-11 01:29:25"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:29:25 +0000] \"GET /auth/forgot-password HTTP/1.1\" 404 21 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:29:25"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 01:29:49"}
+{"level":"warn","message":"404 Not Found: /auth/forgot-password","service":"user-service","timestamp":"2025-04-11 01:29:49"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:29:49 +0000] \"GET /auth/forgot-password HTTP/1.1\" 404 21 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:29:49"}
+{"level":"debug","message":"Logging initialized at debug level","service":"user-service","timestamp":"2025-04-11 01:31:24"}
+{"level":"info","message":"Starting application...","service":"user-service","timestamp":"2025-04-11 01:31:24"}
+{"apiKeyExists":true,"apiSecretExists":true,"cloudName":"di2wdh9jl","level":"debug","message":"Cloudinary Configuration:","service":"user-service","timestamp":"2025-04-11 01:31:24"}
+{"level":"info","message":"Cloudinary configuration successful","service":"user-service","timestamp":"2025-04-11 01:31:24"}
+{"level":"info","message":"Database connection initiated","service":"user-service","timestamp":"2025-04-11 01:31:24"}
+{"level":"info","message":"Server running on port 3000","service":"user-service","timestamp":"2025-04-11 01:31:24"}
+{"level":"debug","message":"Logging initialized at debug level","service":"user-service","timestamp":"2025-04-11 01:31:27"}
+{"level":"info","message":"Starting application...","service":"user-service","timestamp":"2025-04-11 01:31:27"}
+{"apiKeyExists":true,"apiSecretExists":true,"cloudName":"di2wdh9jl","level":"debug","message":"Cloudinary Configuration:","service":"user-service","timestamp":"2025-04-11 01:31:27"}
+{"level":"info","message":"Cloudinary configuration successful","service":"user-service","timestamp":"2025-04-11 01:31:27"}
+{"level":"info","message":"Database connection initiated","service":"user-service","timestamp":"2025-04-11 01:31:27"}
+{"level":"info","message":"Server running on port 3000","service":"user-service","timestamp":"2025-04-11 01:31:27"}
+{"level":"debug","message":"Logging initialized at debug level","service":"user-service","timestamp":"2025-04-11 01:31:31"}
+{"level":"info","message":"Starting application...","service":"user-service","timestamp":"2025-04-11 01:31:31"}
+{"apiKeyExists":true,"apiSecretExists":true,"cloudName":"di2wdh9jl","level":"debug","message":"Cloudinary Configuration:","service":"user-service","timestamp":"2025-04-11 01:31:31"}
+{"level":"info","message":"Cloudinary configuration successful","service":"user-service","timestamp":"2025-04-11 01:31:31"}
+{"level":"info","message":"Database connection initiated","service":"user-service","timestamp":"2025-04-11 01:31:31"}
+{"level":"info","message":"Server running on port 3000","service":"user-service","timestamp":"2025-04-11 01:31:31"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 01:31:33"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:31:33 +0000] \"GET / HTTP/1.1\" 304 - \"http://localhost:3000/auth/signup\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:31:33"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 01:31:34"}
+{"level":"warn","message":"404 Not Found: /auth/forgot-password","service":"user-service","timestamp":"2025-04-11 01:31:34"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:31:34 +0000] \"GET /auth/forgot-password HTTP/1.1\" 404 21 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:31:34"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 01:31:57"}
+{"level":"warn","message":"404 Not Found: /auth/forgot-password","service":"user-service","timestamp":"2025-04-11 01:31:57"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:31:57 +0000] \"GET /auth/forgot-password HTTP/1.1\" 404 21 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:31:57"}
+{"level":"debug","message":"Logging initialized at debug level","service":"user-service","timestamp":"2025-04-11 01:32:31"}
+{"level":"info","message":"Starting application...","service":"user-service","timestamp":"2025-04-11 01:32:31"}
+{"apiKeyExists":true,"apiSecretExists":true,"cloudName":"di2wdh9jl","level":"debug","message":"Cloudinary Configuration:","service":"user-service","timestamp":"2025-04-11 01:32:31"}
+{"level":"info","message":"Cloudinary configuration successful","service":"user-service","timestamp":"2025-04-11 01:32:31"}
+{"level":"info","message":"Database connection initiated","service":"user-service","timestamp":"2025-04-11 01:32:31"}
+{"level":"info","message":"Server running on port 3000","service":"user-service","timestamp":"2025-04-11 01:32:31"}
+{"level":"debug","message":"Logging initialized at debug level","service":"user-service","timestamp":"2025-04-11 01:36:34"}
+{"level":"info","message":"Starting application...","service":"user-service","timestamp":"2025-04-11 01:36:34"}
+{"apiKeyExists":true,"apiSecretExists":true,"cloudName":"di2wdh9jl","level":"debug","message":"Cloudinary Configuration:","service":"user-service","timestamp":"2025-04-11 01:36:34"}
+{"level":"info","message":"Cloudinary configuration successful","service":"user-service","timestamp":"2025-04-11 01:36:34"}
+{"level":"info","message":"Database connection initiated","service":"user-service","timestamp":"2025-04-11 01:36:34"}
+{"level":"info","message":"Server running on port 3000","service":"user-service","timestamp":"2025-04-11 01:36:34"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 01:36:45"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:36:45 +0000] \"GET /auth/forgot-password HTTP/1.1\" 200 3343 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:36:45"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 01:36:51"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:36:51 +0000] \"GET /auth/login HTTP/1.1\" 304 - \"http://localhost:3000/auth/forgot-password\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:36:51"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 01:36:56"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:36:56 +0000] \"GET / HTTP/1.1\" 304 - \"http://localhost:3000/auth/forgot-password\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:36:56"}
+{"level":"info","message":"Password reset requested for email: shohelranatonmoy98@gmail.com","service":"user-service","timestamp":"2025-04-11 01:37:03"}
+{"level":"warn","message":"Password reset attempted for non-existent email: shohelranatonmoy98@gmail.com","service":"user-service","timestamp":"2025-04-11 01:37:03"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:37:03 +0000] \"POST /auth/forgot-password HTTP/1.1\" 200 3779 \"http://localhost:3000/auth/forgot-password\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:37:03"}
+{"level":"debug","message":"Logging initialized at debug level","service":"user-service","timestamp":"2025-04-11 01:37:13"}
+{"level":"info","message":"Starting application...","service":"user-service","timestamp":"2025-04-11 01:37:13"}
+{"apiKeyExists":true,"apiSecretExists":true,"cloudName":"di2wdh9jl","level":"debug","message":"Cloudinary Configuration:","service":"user-service","timestamp":"2025-04-11 01:37:13"}
+{"level":"info","message":"Cloudinary configuration successful","service":"user-service","timestamp":"2025-04-11 01:37:13"}
+{"level":"info","message":"Database connection initiated","service":"user-service","timestamp":"2025-04-11 01:37:13"}
+{"level":"info","message":"Server running on port 3000","service":"user-service","timestamp":"2025-04-11 01:37:13"}
+{"level":"debug","message":"Logging initialized at debug level","service":"user-service","timestamp":"2025-04-11 01:38:09"}
+{"level":"info","message":"Starting application...","service":"user-service","timestamp":"2025-04-11 01:38:09"}
+{"apiKeyExists":true,"apiSecretExists":true,"cloudName":"di2wdh9jl","level":"debug","message":"Cloudinary Configuration:","service":"user-service","timestamp":"2025-04-11 01:38:09"}
+{"level":"info","message":"Cloudinary configuration successful","service":"user-service","timestamp":"2025-04-11 01:38:09"}
+{"level":"info","message":"Database connection initiated","service":"user-service","timestamp":"2025-04-11 01:38:09"}
+{"level":"info","message":"Server running on port 3000","service":"user-service","timestamp":"2025-04-11 01:38:09"}
+{"level":"info","message":"Password reset requested for email: shohelranatonmoy98@gmail.com","service":"user-service","timestamp":"2025-04-11 01:38:09"}
+{"level":"warn","message":"Password reset attempted for non-existent email: shohelranatonmoy98@gmail.com","service":"user-service","timestamp":"2025-04-11 01:38:09"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:38:09 +0000] \"POST /auth/forgot-password HTTP/1.1\" 200 3779 \"http://localhost:3000/auth/forgot-password\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:38:09"}
+{"level":"info","message":"Password reset requested for email: shohelranatonmoy98@gmail.com","service":"user-service","timestamp":"2025-04-11 01:38:11"}
+{"level":"warn","message":"Password reset attempted for non-existent email: shohelranatonmoy98@gmail.com","service":"user-service","timestamp":"2025-04-11 01:38:11"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:38:11 +0000] \"POST /auth/forgot-password HTTP/1.1\" 200 3779 \"http://localhost:3000/auth/forgot-password\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:38:11"}
+{"level":"info","message":"Password reset requested for email: shohelranatonmoy98@gmail.com","service":"user-service","timestamp":"2025-04-11 01:38:24"}
+{"level":"warn","message":"Password reset attempted for non-existent email: shohelranatonmoy98@gmail.com","service":"user-service","timestamp":"2025-04-11 01:38:24"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:38:24 +0000] \"POST /auth/forgot-password HTTP/1.1\" 200 3779 \"http://localhost:3000/auth/forgot-password\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:38:24"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 01:38:40"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:38:40 +0000] \"GET /auth/forgot-password HTTP/1.1\" 200 3343 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:38:40"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 01:38:43"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:38:43 +0000] \"GET /auth/login HTTP/1.1\" 304 - \"http://localhost:3000/auth/forgot-password\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:38:43"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 01:38:45"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:38:45 +0000] \"GET /auth/signup HTTP/1.1\" 304 - \"http://localhost:3000/auth/login\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:38:45"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:38:59 +0000] \"POST /auth/signup HTTP/1.1\" 201 35 \"http://localhost:3000/auth/signup\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:38:59"}
+{"level":"debug","message":"User authenticated:","service":"user-service","timestamp":"2025-04-11 01:39:00","userId":"67f7f423d1b4edfbd3eab710","username":"rana"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:39:00 +0000] \"GET / HTTP/1.1\" 200 9826 \"http://localhost:3000/auth/signup\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:39:00"}
+{"level":"debug","message":"User authenticated:","service":"user-service","timestamp":"2025-04-11 01:39:11","userId":"67f7f423d1b4edfbd3eab710","username":"rana"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:39:11 +0000] \"GET /upload/profile HTTP/1.1\" 200 14919 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:39:11"}
+{"level":"debug","message":"User authenticated:","service":"user-service","timestamp":"2025-04-11 01:39:20","userId":"67f7f423d1b4edfbd3eab710","username":"rana"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:39:20 +0000] \"GET /upload HTTP/1.1\" 304 - \"http://localhost:3000/upload/profile\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:39:20"}
+{"level":"debug","message":"User authenticated:","service":"user-service","timestamp":"2025-04-11 01:39:21","userId":"67f7f423d1b4edfbd3eab710","username":"rana"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:39:22 +0000] \"GET /gallery HTTP/1.1\" 200 21009 \"http://localhost:3000/upload\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:39:22"}
+{"level":"debug","message":"User authenticated:","service":"user-service","timestamp":"2025-04-11 01:40:01","userId":"67f7f423d1b4edfbd3eab710","username":"rana"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:40:01 +0000] \"GET /upload/profile HTTP/1.1\" 304 - \"http://localhost:3000/gallery\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:40:01"}
+{"level":"debug","message":"User authenticated:","service":"user-service","timestamp":"2025-04-11 01:40:05","userId":"67f7f423d1b4edfbd3eab710","username":"rana"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:40:05 +0000] \"GET /auth/logout HTTP/1.1\" 302 30 \"http://localhost:3000/upload/profile\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:40:05"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 01:40:05"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:40:05 +0000] \"GET / HTTP/1.1\" 200 9302 \"http://localhost:3000/upload/profile\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:40:05"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 01:40:08"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:40:08 +0000] \"GET /auth/forgot-password HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:40:08"}
+{"level":"info","message":"Password reset requested for email: shohelranatonmoy98@gmail.com","service":"user-service","timestamp":"2025-04-11 01:40:12"}
+{"level":"warn","message":"NODEMAILER NOT INSTALLED - Cannot send actual email","service":"user-service","timestamp":"2025-04-11 01:40:12"}
+{"level":"info","message":"Development mode: OTP for shohelranatonmoy98@gmail.com is: 747831","service":"user-service","timestamp":"2025-04-11 01:40:12"}
+{"level":"info","message":"Password reset OTP sent to: shohelranatonmoy98@gmail.com","service":"user-service","timestamp":"2025-04-11 01:40:12"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:40:12 +0000] \"POST /auth/forgot-password HTTP/1.1\" 302 82 \"http://localhost:3000/auth/forgot-password\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:40:12"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 01:40:12"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:40:12 +0000] \"GET /auth/verify-otp?email=shohelranatonmoy98%40gmail.com HTTP/1.1\" 200 3327 \"http://localhost:3000/auth/forgot-password\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:40:12"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 01:41:02"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:41:02 +0000] \"GET /auth/forgot-password HTTP/1.1\" 200 3343 \"http://localhost:3000/auth/verify-otp?email=shohelranatonmoy98%40gmail.com\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:41:02"}
+{"level":"info","message":"Password reset requested for email: shohelranatonmoy98@gmail.com","service":"user-service","timestamp":"2025-04-11 01:41:06"}
+{"level":"warn","message":"NODEMAILER NOT INSTALLED - Cannot send actual email","service":"user-service","timestamp":"2025-04-11 01:41:06"}
+{"level":"info","message":"Development mode: OTP for shohelranatonmoy98@gmail.com is: 267616","service":"user-service","timestamp":"2025-04-11 01:41:06"}
+{"level":"info","message":"Password reset OTP sent to: shohelranatonmoy98@gmail.com","service":"user-service","timestamp":"2025-04-11 01:41:06"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:41:06 +0000] \"POST /auth/forgot-password HTTP/1.1\" 302 82 \"http://localhost:3000/auth/forgot-password\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:41:06"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 01:41:06"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:41:06 +0000] \"GET /auth/verify-otp?email=shohelranatonmoy98%40gmail.com HTTP/1.1\" 304 - \"http://localhost:3000/auth/forgot-password\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:41:06"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 01:45:46"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:45:46 +0000] \"GET /auth/verify-otp?email=shohelranatonmoy98%40gmail.com HTTP/1.1\" 200 10478 \"http://localhost:3000/auth/forgot-password\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:45:46"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 01:45:48"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:45:48 +0000] \"GET /auth/verify-otp?email=shohelranatonmoy98%40gmail.com HTTP/1.1\" 304 - \"http://localhost:3000/auth/forgot-password\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:45:48"}
+{"level":"warn","message":"Invalid/expired OTP attempted for email: shohelranatonmoy98@gmail.com","service":"user-service","timestamp":"2025-04-11 01:45:53"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:45:53 +0000] \"POST /auth/verify-otp HTTP/1.1\" 200 10896 \"http://localhost:3000/auth/verify-otp?email=shohelranatonmoy98%40gmail.com\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:45:53"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 01:46:12"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:46:12 +0000] \"GET /auth/forgot-password HTTP/1.1\" 200 3343 \"http://localhost:3000/auth/verify-otp\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:46:12"}
+{"level":"info","message":"Password reset requested for email: shohelranatonmoy98@gmail.com","service":"user-service","timestamp":"2025-04-11 01:46:16"}
+{"level":"warn","message":"NODEMAILER NOT INSTALLED - Cannot send actual email","service":"user-service","timestamp":"2025-04-11 01:46:16"}
+{"level":"info","message":"Development mode: OTP for shohelranatonmoy98@gmail.com is: 761414","service":"user-service","timestamp":"2025-04-11 01:46:16"}
+{"level":"info","message":"Password reset OTP sent to: shohelranatonmoy98@gmail.com","service":"user-service","timestamp":"2025-04-11 01:46:16"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:46:16 +0000] \"POST /auth/forgot-password HTTP/1.1\" 302 82 \"http://localhost:3000/auth/forgot-password\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:46:16"}
+{"level":"debug","message":"No JWT token found in cookies","service":"user-service","timestamp":"2025-04-11 01:46:16"}
+{"level":"info","message":"::1 - - [10/Apr/2025:16:46:16 +0000] \"GET /auth/verify-otp?email=shohelranatonmoy98%40gmail.com HTTP/1.1\" 304 - \"http://localhost:3000/auth/forgot-password\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\"","service":"user-service","timestamp":"2025-04-11 01:46:16"}

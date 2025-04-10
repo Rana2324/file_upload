@@ -42,6 +42,12 @@ router.post("/forgot-password", async (req, res) => {
 
     logger.info(`Password reset OTP sent to: ${email}`);
 
+    // If in development mode, show the OTP in the alert
+    const isDevMode = emailService.isDevMode();
+    if (isDevMode) {
+      req.flash ? req.flash("devOtp", `DEV MODE: Your OTP is ${otp}`) : null;
+    }
+
     // Redirect to OTP verification page
     res.redirect(`/auth/verify-otp?email=${encodeURIComponent(email)}`);
   } catch (error) {
@@ -55,7 +61,16 @@ router.post("/forgot-password", async (req, res) => {
 // OTP verification page
 router.get("/verify-otp", (req, res) => {
   const { email } = req.query;
-  res.render("verify-otp", { email });
+
+  // Get the saved OTP in development mode
+  const devOtp = emailService.getDevOtp(email);
+  const isDevMode = emailService.isDevMode();
+
+  res.render("verify-otp", {
+    email,
+    devMode: isDevMode,
+    devOtp: devOtp,
+  });
 });
 
 // Process OTP verification
@@ -164,24 +179,24 @@ router.post("/resend-otp", async (req, res) => {
     // Generate a new random 6-digit OTP
     const otp = Math.floor(100000 + Math.random() * 900000).toString();
     const otpExpiry = new Date();
-    otpExpiry.setMinutes(otpExpiry.getMinutes() + 10); // OTP valid for 10 minutes
+    otpExpiry.setMinutes(otpExpiry.getMinutes() + config.otp.expiryMinutes);
 
     // Save new OTP to user record
     user.resetPasswordOtp = otp;
     user.resetPasswordExpires = otpExpiry;
     await user.save();
 
-    // Send email with OTP - using the debugging version to check if it's working
-    logger.info(`Debug - OTP for ${email} is: ${otp}`); // For debugging
-
     // Send email with OTP
     await emailService.sendOtpEmail(user.email, otp);
 
     logger.info(`New OTP sent to: ${email}`);
 
-    return res
-      .status(200)
-      .json({ success: true, message: "New OTP sent successfully" });
+    return res.status(200).json({
+      success: true,
+      message: "New OTP sent successfully",
+      devMode: config.devMode,
+      devOtp: config.devMode ? otp : null,
+    });
   } catch (error) {
     logger.error(`OTP resend error for email ${req.body.email}:`, error);
     return res.status(500).json({

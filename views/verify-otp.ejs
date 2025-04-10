@@ -74,6 +74,25 @@
 
     <div class="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
       <div class="bg-white py-8 px-4 shadow sm:rounded-lg sm:px-10">
+        <!-- Development Mode OTP Display -->
+        <% if (locals.devMode && locals.devOtp) { %>
+          <div class="rounded-md bg-yellow-50 p-4 mb-4 border-l-4 border-yellow-400">
+            <div class="flex">
+              <div class="flex-shrink-0">
+                <i class="fas fa-exclamation-triangle text-yellow-400"></i>
+              </div>
+              <div class="ml-3">
+                <h3 class="text-sm font-medium text-yellow-800">Development Mode</h3>
+                <div class="mt-2 text-sm text-yellow-700">
+                  <p>Your OTP is: <strong class="text-lg font-mono"><%= devOtp %></strong></p>
+                  <p class="mt-1 text-xs">This message is only displayed in development mode</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        <% } %>
+        
+        <!-- Error Display -->
         <% if (locals.error) { %>
           <div class="rounded-md bg-red-50 p-4 mb-4">
             <div class="flex">
@@ -246,13 +265,15 @@
           const email = document.querySelector('input[name="email"]').value;
           
           // Send request to resend OTP
-          await fetch('/auth/resend-otp', {
+          const response = await fetch('/auth/resend-otp', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json'
             },
             body: JSON.stringify({ email })
           });
+          
+          const data = await response.json();
           
           // Reset the countdown
           minutes = 9;
@@ -275,7 +296,21 @@
           }, 1000);
           
           // Show success message
-          alert('A new OTP has been sent to your email.');
+          if (data.devMode && data.devOtp) {
+            // If in dev mode and OTP is provided in the response, show it
+            alert(`Development Mode: Your OTP is ${data.devOtp}`);
+            
+            // Auto-fill the OTP fields
+            const digits = data.devOtp.toString().split('');
+            digitInputs.forEach((input, index) => {
+              if (index < digits.length) {
+                input.value = digits[index];
+                updateHiddenInput();
+              }
+            });
+          } else {
+            alert('A new OTP has been sent to your email.');
+          }
         } catch (error) {
           console.error('Error resending OTP:', error);
           alert('Failed to resend OTP. Please try again later.');
